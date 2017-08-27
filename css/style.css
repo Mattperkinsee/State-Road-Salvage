@@ -1,0 +1,264 @@
+#header .top-header .header-logo:hover,
+#header .top-header .header-navigation ul li.menu-item-has-children .sub-menu li:hover > a,
+#latest-news .section-content .post .post-title:hover,
+#latest-news .section-content .post .post-button,
+#contact-us .section-content .contact-us-box .box-left,
+.recentcomments > a,
+#blog .blog-post .blog-post-title:hover,
+#blog .blog-post .blog-post-meta .post-meta-author,
+#blog .blog-post .blog-post-meta .post-meta-author .fa,
+#blog .blog-post .blog-post-meta .post-meta-time .fa,
+#blog .blog-post .blog-post-meta .post-meta-categories .fa,
+#blog .blog-post .blog-post-meta .post-meta-comments .fa,
+#blog .blog-post .blog-post-author h4,
+.widget table td#prev a,
+.widget table td#next a,
+.widget .widget-recent-post .recent-post-button,
+span.rss-date:before,
+.post-date:before,
+.blog-post-related-articles .related-post:hover .related-post-title,
+#comments #comments-list ul.comments .comment .url,
+#comments #comments-list ul.comments .comment .comment-reply-link,
+#header .bottom-header span.span-dot,
+#header .top-header .header-navigation ul li:hover a,
+input[type=submit] {
+    color: #507fe2;
+}
+
+#header .top-header .header-navigation ul li.menu-item-has-children .sub-menu li:hover > a {
+    border-color: #507fe2;
+}
+
+#header .bottom-header .header-button-two,
+#comments #respond .comment-form #input-submit,
+#latest-news .latest-news-button,
+#contact-us .section-content .wpcf7-form p .wpcf7-submit,
+#blog .blog-post .blog-post-button,
+.widget table caption,
+.widget table#wp-calendar tbody tr td a {
+    background-color: #507fe2;
+}
+
+@media only screen and (max-width: 992px) {
+    .header-front-page nav ul.sub-menu {
+        background-color: #507fe2;
+    }
+}
+
+a:hover,
+a:focus,
+#latest-news .section-content .post .post-button:hover,
+#latest-news .section-content .post .post-button:focus,
+.recentcomments a:hover,
+.widget:not(.widget_rss):not(.widget_recent_comments):not(.widget_recent_entries) ul li:hover:before,
+.widget:not(.widget_recent_comments) ul li:hover > a,
+.widget.widget_recent_comments ul li a:hover,
+.widget table td#prev a:hover:before,
+.widget table td#next a:hover:before,
+.widget table td#prev a:focus:before,
+.widget table td#next a:focus:before,
+.widget_categories ul li:hover,
+.widget_archive ul li:hover {
+    color: #1acdcb;
+}
+
+#testimonials .section-content .testimonials-carousel .carousel-testimonial .testimonial-content,
+.widget table#wp-calendar tbody tr td a:hover,
+#comments #respond .comment-form #input-submit:hover,
+input[type=submit]:hover,
+#latest-news .latest-news-button:hover,
+#contact-us .section-content .wpcf7-form p .wpcf7-submit:hover,
+#header .bottom-header .header-button-two:hover,
+#blog .blog-post .blog-post-button:hover {
+    background-color: #1acdcb;
+}
+
+#testimonials .section-content .testimonials-carousel .carousel-testimonial .testimonial-content:after {
+    border-color: #1acdcb transparent transparent transparent;
+}
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover {
+    border-color: #1acdcb;
+}
+
+.front-page-section .section-header .section-description,
+#header .top-header .header-navigation ul li.menu-item-has-children .sub-menu li a,
+#services .section-content .service .service-entry,
+#latest-news .section-content .post .post-entry,
+#team .section-content .person .person-content p,
+#contact-us .section-content .contact-us-box .box-right span,
+#contact-us .section-content .contact-us-box .box-right span a,
+#contact-us .section-content .contact-us-social a,
+#contact-us .section-content .wpcf7-form p .wpcf7-text,
+#footer .copyright,
+#footer .copyright a,
+.widget table tbody,
+input,
+textarea,
+.markup-format h1,
+.markup-format h2,
+.markup-format h3,
+.markup-format h4,
+.markup-format h5,
+.markup-format h6,
+body {
+    color: #8c9597;
+}
+
+#contact-us .section-content .wpcf7-form p .wpcf7-text::-webkit-input-placeholder,
+#contact-us .section-content .wpcf7-form p .wpcf7-text::-moz-placeholder,
+#contact-us .section-content .wpcf7-form p .wpcf7-text:-ms-input-placeholder,
+#contact-us .section-content .wpcf7-form p .wpcf7-text:-moz-placeholder,
+#contact-us .section-content .wpcf7-form p .wpcf7-textarea,
+#contact-us .section-content .wpcf7-form p .wpcf7-textarea::-webkit-input-placeholder,
+#contact-us .section-content .wpcf7-form p .wpcf7-textarea::-moz-placeholder,
+#contact-us .section-content .wpcf7-form p .wpcf7-textarea:-ms-input-placeholder,
+#contact-us .section-content .wpcf7-form p .wpcf7-textarea:-moz-placeholder {
+    color: #8c9597;
+}
+
+.front-page-section .section-header h3,
+#latest-news .section-content .post .post-button:active,
+#blog .blog-post .blog-post-title,
+.widget table thead th,
+#team .section-content .person .person-content h6,
+.widget_rss cite,
+.illdy_home_parallax h3 {
+    color: #545454;
+}
+
+.pace .pace-progress {
+    background-color: #0543ff;
+    color: #0543ff;
+}
+
+.pace .pace-activity {
+    box-shadow: inset 0 0 0 2px #0543ff, inset 0 0 0 7px #ffffff;
+}
+
+.pace-overlay {
+    background-color: #ffffff;
+}
+
+#wpadminbar {
+    display: none;
+}
+
+html {
+    /*  margin-top: 32px !important;*/
+}
+
+* html body {
+    /*  margin-top: 32px !important;*/
+}
+
+@media screen and (max-width: 782px) {
+    html {
+        /*  margin-top: 46px !important;-->*/
+    }
+    * html body {
+        /* margin-top: 46px !important;*/
+    }
+}
+
+
+/* About Us Section*/
+
+#header.header-front-page {
+    background-image: url(http://stateroadsalvage.com/wp-content/uploads/2017/08/salvage-yard-1184420_1920-1-2.jpg) !important;
+}
+
+#header.header-front-page .bottom-header .header-button-two {
+    background-color: #d30202;
+}
+
+#header.header-front-page .bottom-header .header-button-two:hover {
+    background-color: #ffffff;
+}
+
+#header.header-front-page .bottom-header span.span-dot {
+    color: #ff0505;
+}
+
+#about {
+    background-color: #ffffff;
+}
+
+#projects {
+    background-image: url(http://stateroadsalvage.com/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+}
+
+#projects {
+    background-size: auto !important;
+}
+
+#projects {
+    background-repeat: repeat !important;
+}
+
+#team {
+    background-image: url(http://stateroadsalvage.com/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+}
+
+#team {
+    background-size: auto !important;
+}
+
+#team {
+    background-repeat: repeat !important;
+}
+
+#testimonials {
+    background-image: url(http://stateroadsalvage.com/wp-content/themes/illdy/layout/images/testiomnials-background.jpg) !important;
+}
+
+
+/*Custom CSS */
+
+#header .bottom-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.master-slider-parent {
+    border: 10px solid black;
+    border-padding: 20px;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.6), 0px 0px 0px 14px #fff, 0px 0px 0px 18px rgba(0, 0, 0, 0.2), 6px 6px 8px 17px #555;
+}
+
+#footer > .container {
+    display: none;
+}
+
+.copyright {
+    visibility: hidden;
+}
+
+.bottom-copyright {
+    visibility: visible;
+    position: right;
+}
+
+h1 {
+    font-size: 10vw !important;
+    font-size: 76px !important;
+}
+
+h1,
+h2,
+body,
+a {
+    font-family: "Signika";
+}
+
+#contact-us {
+    background-color: #292825;
+    font-color: white;
+}
+
+#contact-us>.section-header {
+    font-color: white !important;
+}
