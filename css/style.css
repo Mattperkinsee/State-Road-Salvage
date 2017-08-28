@@ -249,16 +249,76 @@ h1 {
 
 h1,
 h2,
-body,
+h3,
+h4,
+h5,
+h6 body,
 a {
-    font-family: "Signika";
+    font-family: "Lato" !important;
+}
+
+.sectionTitle {
+    color: #3c3c3c;
+}
+
+.front-page-section .section-header {
+    margin-bottom: 0px !important;
+}
+
+#contact-us .section-content .contact-us-social {
+    text-align: center;
+}
+
+h3,
+h4,
+.box-right-row,
+#contact-us .section-content .contact-us-social a {
+    color: white !important;
+}
+
+#success_message {
+    display: none;
 }
 
 #contact-us {
     background-color: #292825;
-    font-color: white;
+    color: white;
 }
 
 #contact-us>.section-header {
-    font-color: white !important;
+    color: white !important;
 }
+
+@media only screen and (max-width: 992px) {
+    .responsive-menu ul li a {
+        font-family: "Lato" !important;
+        font-weight: 700 !important;
+    }
+}
+
+.mainLogo,
+.lineSep {
+    width: 75% !important;
+}
+
+#about,
+#static-page-content {
+    padding: 0px !important;
+}
+
+
+/*
+@media (min-width: 992px){
+    .container{
+        
+        width:100% !important;
+    }
+    
+     .col-xs-12, .col-sm-12, .col-lg-12{
+        padding-right:0px !important;
+        padding-left:0px !important;
+        
+    }
+    
+    
+}*/
