@@ -21,6 +21,7 @@ input[type=submit] {
     color: #70a9ff !important;
 }
 
+
 #header .top-header .header-navigation ul li a{
     font-size:28px !important;
     align-content: center;
@@ -28,6 +29,14 @@ input[type=submit] {
     font-weight: 900 !important;
     
     
+}
+#myCarousel{
+    margin:15px;
+    
+}
+ol, ul{
+    
+    padding-left:0px !important;
 }
 
 .carousel-caption{
@@ -75,7 +84,7 @@ input[type=submit] {
 }
 
 #footer > .container {
-    display: none;
+    
 }
 
 .copyright {
@@ -104,7 +113,14 @@ a {
 .sectionTitle {
     color: #3c3c3c;
 }
-
+i.fa.fa-facebook, i.fa.fa-google-plus{
+    
+    color:white !important;
+}
+i.fa.fa-facebook:hover, i.fa.fa-google-plus:hover{
+    
+    color: #70a9ff !important;
+}
 .front-page-section .section-header {
     margin-bottom: 0px !important;
 }
@@ -128,10 +144,23 @@ h4,
     background-color: #292825 !important;
     color: white;
 }
+#social
+{
+    background-color: #292825 !important;
+    color: white;
+    
+}
 
 #contact-us>.section-header {
     color: white !important;
 }
+@media only screen and (max-width: 764px) {
+    .mainLogo {
+        display:none;
+    }
+}
+
+
 
 @media only screen and (max-width: 992px) {
     .responsive-menu ul li a {
@@ -157,3 +186,18 @@ h4,
 #static-page-content {
     padding: 0px !important;
 }
+
+body {
+    opacity: 1;
+    transition: .5s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+.box-right-row{
+    color:white !important;
+}
+
+
+
