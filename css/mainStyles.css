@@ -29,6 +29,11 @@ input[type=submit] {
     
     
 }
+
+.carousel-caption{
+    font-size:4vw;
+    
+}
 .smallLogo{
     width:50%;
     float:right;
