@@ -1,0 +1,154 @@
+@charset “UTF-8″;
+
+#header .top-header .header-logo:hover,
+#header .top-header .header-navigation ul li.menu-item-has-children .sub-menu li:hover > a,
+#latest-news .section-content .post .post-title:hover,
+#latest-news .section-content .post .post-button,
+#contact-us .section-content .contact-us-box .box-left,
+.recentcomments > a,
+.widget table td#prev a,
+.widget table td#next a,
+.widget .widget-recent-post .recent-post-button,
+span.rss-date:before,
+.post-date:before,
+.blog-post-related-articles .related-post:hover .related-post-title,
+#comments #comments-list ul.comments .comment .url,
+#comments #comments-list ul.comments .comment .comment-reply-link,
+#header .bottom-header span.span-dot,
+.fa:hover,
+#header .top-header .header-navigation ul li:hover a,
+input[type=submit] {
+    color: #70a9ff !important;
+}
+
+#header .top-header .header-navigation ul li a{
+    font-size:28px !important;
+    align-content: center;
+    text-align: center;
+    font-weight: 900 !important;
+    
+    
+}
+.smallLogo{
+    width:50%;
+    float:right;
+    
+}
+
+#header .bottom-header{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    
+}
+#header .top-header .header-navigation{
+    float:left !important;
+   
+    
+}
+/* About Us Section*/
+
+#header.header-front-page {
+    background-image: url("http://www.stateroadsalvage.com/img/headerBG.jpg?v=0") !important;
+}
+
+
+#about {
+    background-color: #ffffff;
+}
+
+
+/*Custom CSS */
+
+.fa {
+    font-size: 2.5em !important;
+    padding: 5px !important;
+}
+
+#header .bottom-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer > .container {
+    display: none;
+}
+
+.copyright {
+    visibility: hidden;
+}
+
+.bottom-copyright {
+    visibility: visible;
+    position: right;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 body,
+a {
+    font-family: "Lato" !important;
+}
+
+.sectionTitle {
+    color: #3c3c3c;
+}
+
+.front-page-section .section-header {
+    margin-bottom: 0px !important;
+}
+
+#contact-us .section-content .contact-us-social {
+    text-align: center;
+}
+
+h3,
+h4,
+.box-right-row,
+#contact-us .section-content .contact-us-social a {
+    color: white !important;
+}
+
+#success_message {
+    display: none;
+}
+
+#contact-us {
+    background-color: #292825 !important;
+    color: white;
+}
+
+#contact-us>.section-header {
+    color: white !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive-menu ul li a {
+        font-family: "Lato" !important;
+        font-weight: 700 !important;
+    }
+}
+
+.header-front-page {
+    background-color: darkgrey;
+}
+
+.lineSepShort {
+    width: 35% !important;
+}
+
+.mainLogo,
+.lineSep {
+    width: 75% !important;
+}
+
+#about,
+#static-page-content {
+    padding: 0px !important;
+}
