@@ -44,8 +44,12 @@ ol, ul{
     
 }
 .smallLogo{
-    width:50%;
-    float:right;
+    width:100%;
+    
+    min-width: 110px;
+    min-height: 110px;
+    max-height: 300px;
+    max-width: 300px;
     
 }
 
@@ -199,5 +203,26 @@ body.fade-out {
     color:white !important;
 }
 
+/*
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+*/
 
+p{
+        margin: 0 0 10px;
+    /* padding: 20px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.h1, .h2, .h3, h1, h2, h3
+{
+    padding: 20px
+}
 
+.front-page-section .section-header .section-description
+{
+        padding: 10px;
+    
+}

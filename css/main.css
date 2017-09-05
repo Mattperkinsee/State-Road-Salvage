@@ -1085,9 +1085,9 @@ a.button:hover {
 }
 
 #contact-us .section-content .contact-us-box .box-left {
-	width: auto;
+	width: 80px;
 	margin: 0;
-	padding: 0 20px 0 0;
+	padding: 0 0px 0 0;
 	border-right: 1px solid #e1e1e1;
 	display: table-cell;
 	font-weight: 400;
@@ -2572,6 +2572,17 @@ p.mb32 {
 	#header .top-header .header-navigation {
 		display: none;
 	}
+    
+    #header .top-header {
+	width: 100%;
+	padding-top: 20px;
+}
+    
+    #header .bottom-header{
+        display:none;
+        
+    }
+
 
 	.open-responsive-menu {
 		height: 100%;
@@ -2704,11 +2715,11 @@ p.mb32 {
 	}
 
 	#contact-us .section-content .contact-us-box .box-left {
-		width: 50%;
+		/*width: 50%;*/
 	}
 
 	#contact-us .section-content .contact-us-box .box-left {
-		width: 50%;
+		/*width: 50%;*/
 	}
 
 	#contact-us .section-content .col-sm-5,
@@ -2839,3 +2850,12 @@ p.mb32 {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.col-sm-8.col-sm-offset-2{
+    
+    display: none;
+}
+i.fa.fa-bars{
+        transform: scale(.75,.75);
+    
+}
