@@ -238,6 +238,12 @@ h3,
     .col-sm-2.text-center.headerInfo {
         display: none
     }
+    i.fa.fa-facebook.header
+    {
+        display:none;
+    }
+    
+    
 }
 
 @media only screen and (max-width:992px) {
@@ -538,7 +544,7 @@ a:focus {
 
 .front-page-section .section-header h3 {
     margin: 0 0 5px 0;
-    color: #545454;
+    color: white;
 }
 
 .section-description img {
